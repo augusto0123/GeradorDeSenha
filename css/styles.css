@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e7f0fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #d8ce5c;
+    padding: 2rem;
+    border-top: 15px solid black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#criar-senha h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control span {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: black;
+    font-size: 20px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+#gerar-btn {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: #F44236;
+    cursor: pointer;
+    flex: 1;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.action-control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#senha-gerada {
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    margin-bottom: 35px;
+}
